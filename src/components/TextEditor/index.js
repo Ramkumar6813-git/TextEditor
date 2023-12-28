@@ -16,7 +16,6 @@ import {
   ItalicButton,
   BoldButton,
   UnderlineButton,
-  Line,
   TextArea,
 } from './styledComponents'
 
@@ -94,10 +93,9 @@ class TextEditor extends Component {
                 </UnderlineButton>
               </ListItem>
             </IconsContainerList>
-            <Line />
+
             <TextArea
-              rows="25"
-              cols="54"
+              rows="12"
               bold={boldButtonActive}
               italic={italicButtonActive}
               underline={underlineButtonActive}
